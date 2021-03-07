@@ -83,7 +83,7 @@ pipelines:
 
   - name: my_third_pipeline
     steps:
-      - name: p2_s1
+      - name: p3_s1
         type: Bash
         configuration:
           inputResources:
@@ -96,7 +96,7 @@ pipelines:
             
   - name: my_fourth_pipeline
     steps:
-      - name: p2_s1
+      - name: p4_s1
         type: Bash
         configuration:
           inputResources:
